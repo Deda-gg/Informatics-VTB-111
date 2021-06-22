@@ -1,0 +1,13 @@
+#константы
+x = 5;
+y = 4;
+#вычесление
+a = x + y;
+b = x - y;
+c = x * y;
+d = x / y;
+#вывод
+println("a = ",a);
+println("b = ",b);
+println("c = ",c);
+println("d = ",d);
