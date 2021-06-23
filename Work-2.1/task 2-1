@@ -1,0 +1,35 @@
+#Выбор действия
+println("Вибирите что вы хотите сделать с числами: 0-сумирование, 1-вычитание, 2-умножение");
+c = readline()
+c= parse(Int64, c)
+#Сложение
+if c == 0
+  println("Ввидите значение x")
+  x = readline()
+  x = parse(Int64, x)
+  println("Ввидите значение y")
+  y = readline()
+  y = parse(Int64, y)
+  summa = x + y
+  println("Сумма ровна =",summa)
+  #Вычитание
+    elseif c == 1
+      println("Ввидите значение x")
+      x = readline()
+      x = parse(Int64, x)
+      println("Ввидите значение y")
+      y = readline()
+      y = parse(Int64, y)
+      vihit = x - y
+      println("Вычитание ровна = ",vihit)
+      #Умножение
+        elseif c == 2
+          println("Ввидите значение x")
+          x = readline()
+          x = parse(Int64, x)
+          println("Ввидите значение y")
+          y = readline()
+          y = parse(Int64, y)
+          mnochetel = x * y
+          println("Результат умножения равен = ",mnochetel)
+end
