@@ -1,13 +1,13 @@
-#константы
-x = 5;
-y = 4;
-#вычесление
-a = x + y;
-b = x - y;
-c = x * y;
-d = x / y;
-#вывод
-println("a = ",a);
-println("b = ",b);
-println("c = ",c);
-println("d = ",d);
+println("Введите значения")
+x = readline()
+x = parse(Int64, x)
+y = readline()
+y = parse(Int64, y)
+a = x + y
+println("сумма =", a)
+b= x - y
+println("разность =", b)
+c = x * y
+println("произвидение =", c)
+d = x / y
+println("частное = ", d)
