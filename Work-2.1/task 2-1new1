@@ -1,0 +1,28 @@
+#Выбор действия5
+println("Выберите что вы хотите сделать с числами: 0-Суммирование, 1-вычитание, 2-умножение");
+rad_str = readline()
+println("Введите значение x")
+ x = readline()
+ x = tryparse(Float64, x)
+ println("Введите значение y")
+ y = readline()
+ y = tryparse(Float64, y)
+c = tryparse(Float64, rad_str);
+        #Сложение
+      if   c == 0
+          the_amount = x + y
+          println("Результат суммы равен = ",the_amount)
+          #Вычитание
+            elseif c == 1
+            deduction = x - y
+              println("Результат Вычитание ровен = ",deduction)
+              #Умножение
+            elseif c == 2
+                  multiplication = x * y
+                  println("Результат умножения равен = ",multiplication)
+                  elseif c  != nothing
+                    println("Выберите одно из предложенных чисел! 0-Суммирование, 1-вычитание, 2-умножение");
+else
+    println("Ошибка ввода");
+    quit();
+end
