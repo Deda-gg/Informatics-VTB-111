@@ -1,0 +1,21 @@
+println("Введите число x! ");
+brad_str = readline();
+x  = tryparse(Float64, rad_str);
+println("Введите число y!")
+blu_str = readline();
+y  = tryparse(Float64, blu_str);
+if y == 0
+println("y не может быть равен 0 из-за деления")
+    elseif ((x != nothing) && (y  != nothing))
+        a = x + y
+        println("сумм =", a)
+        b= x - y
+        println("разность =", b)
+        c = x * y
+        println("произвидение =", c)
+        d = x / y
+        println("частное = ", d)
+else
+    println("Ошибка ввода");
+    quit();
+end;
