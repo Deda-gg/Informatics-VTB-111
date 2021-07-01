@@ -1,0 +1,17 @@
+println("Введите значения")
+x = readline()
+x = parse(Float64, x)
+y = readline()
+y = parse(Float64, y)
+a = x + y
+println("сумма =", a)
+b= x - y
+println("разность =", b)
+c = x * y
+println("произвидение =", c)
+if y == 0
+    println("Ошибка")
+elseif y >= 1
+d = x / y
+println("частное = ", d)
+end
